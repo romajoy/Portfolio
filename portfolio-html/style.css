@@ -1,5 +1,45 @@
+body {
+    text-align: center;
+    padding: 10px;
+    background-color: whitesmoke;
+    object-position: center;
+}
+
 button {
-    border-radius: 50%;
-    border-width: 10px;
-    background-color: lightpink
+    border-radius: 30%;
+    font-size: 20px;
+    background-color: rgb(216, 216, 8);
+    min-width: 20px;
+    display: inline-flex center;
+    justify-content: center;
+}
+
+#about-div, #resume-div,#projects-div {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    float: center;
+    max-width: 50% center;
+}
+
+header {
+    background: rgb(104,104,9);
+    width: 100%;
+    padding: 60px;
+}
+
+
+h1 {
+    color: rgb(83, 96, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+}
+
+footer {
+    /* background-color: lightgoldenrodyellow;
+    max-width: 100%; */
+    padding: 50px;
+    margin: 50px;
+    /* display: flex; */
+    justify-content: center;
+
 }

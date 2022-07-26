@@ -1,36 +1,36 @@
 $(() => {
 
-    $aboutMeDiv = $('#about-div')
-    $resumeDiv = $('#resume-div')
-    $projectsDiv = $('#projects-div')
+    // const $flexbox = $('.nav').attr('id','flexbox')
+    // $('body').append($flexbox)
+
+
+    $aboutMeDiv = $('#about-div').hide(5000)
+    $resumeDiv = $('#resume-div').hide(5000)
+    $projectsDiv = $('#projects-div').hide(5000)
 
 const toggleAboutMe = () => {
-    $aboutMeDiv.show()
+    $aboutMeDiv.show(4000)
     $resumeDiv.hide()
     $projectsDiv.hide()
 }
 
 const toggleResume = () => {
-    $resumeDiv.show()
+    $resumeDiv.show(4000)
     $aboutMeDiv.hide()
     $projectsDiv.hide()
 }
 
 const toggleProjects = () => {
-    $projectsDiv.show()
+    $projectsDiv.show(4000)
     $aboutMeDiv.hide()
     $resumeDiv.hide()
 }
 
-
-
-
-})
-
-$(() => {
-
     $('#about-me').on('click', toggleAboutMe)
     $('#resume').on('click', toggleResume)
     $('#projects').on('click', toggleProjects)
+
+const $flexboxfooter = $('<footer>').attr('id','flexbox')
+$('body').append($flexboxfooter)
 
 })
