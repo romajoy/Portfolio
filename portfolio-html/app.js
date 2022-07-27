@@ -13,41 +13,42 @@ $projectHeads = $('.head')
 
 // On Load, show/hide:
 $aboutMeDiv.show()
-$resumeDiv.hide()
-$projectsDiv.hide()
+$resumeDiv.hide(1000)
+$projectsDiv.hide(1000)
 
 // Funtions for on-click:
 const toggleAboutMe = () => {
-    $aboutMeDiv.toggle(4000)
-    $resumeDiv.hide(4000)
-    $projectsDiv.hide(4000)
+    $aboutMeDiv.toggle(2000)
+    $resumeDiv.hide(2000)
+    $projectsDiv.hide(2000)
 }
 const toggleResume = () => {
-    $resumeDiv.toggle(4000)
-    $aboutMeDiv.hide(4000)
-    $projectsDiv.hide(4000)
+    $resumeDiv.toggle(2000)
+    $aboutMeDiv.hide(2000)
+    $projectsDiv.hide(2000)
 }
 const toggleProjects = () => {
-    $projectsDiv.toggle(4000)
-    $aboutMeDiv.hide(4000)
-    $resumeDiv.hide(4000)
-    $projectParas.hide()
-    $projectHeads.show(4000)
+    $projectsDiv.toggle(2000)
+    $aboutMeDiv.hide(2000)
+    $resumeDiv.hide(2000)
+    $projectParas.hide(2000)
+    $projectHeads.show(2000)
 }
 const projectAx = () => {
-    $projectA.toggle(3000)
-    $projectB.hide(3000)
-    $projectC.hide(3000)
+    $projectA.toggle(2000)
+    $projectB.hide(2000)
+    $projectC.hide(2000)
 }
 const projectBx = () => {
-    $projectB.toggle(3000)
-    $projectA.hide(3000)
-    $proejctC.hide(3000)
+    $projectB.toggle(2000)
+    $projectA.hide(2000)
+    $proejctC.hide(2000)
 }
 const projectCx = () => {
-    $projectC.toggle(3000)
-    $projectB.hide(3000)
-    $projectA.hide(3000)
+    $projectC.toggle(2000)
+    $projectA.hide(2000)
+    $projectB.hide(2000)
+    
 }
 
 

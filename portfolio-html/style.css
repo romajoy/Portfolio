@@ -1,19 +1,12 @@
 body {
+    height: 100vh;
+    width: 100vw;
     text-align: center;
-    padding: 10px;
+    padding: 0;
     object-position: center;
     margin: 0;
-}
-
-#about-div, #resume-div,#projects-div {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    float: center;
-    max-width: 50% center;
-    padding: 10px;
-}
-
-div {
-    margin: 0;
+    background-color: #edafb8;
+    border: 0;
 }
 
 h1 {
@@ -23,6 +16,33 @@ h1 {
     color: whitesmoke;
     margin: 0;
     text-align: center;
+    padding: 15px;
+    
+}
+
+@media (max-width: 700px) {
+    #bio-paragraph {
+        padding: 5px;
+        margin: 0;
+    }
+    #resume-paragraph {
+        padding: 5px;
+        margin: 0;
+    }
+    #projects-divy {
+        padding: 5px;
+        margin: 0;
+    }
+}
+
+div {
+    margin: 0;
+}
+
+#about-div, #resume-div,#projects-div {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    float: center;
+    max-width: 50% center;
     padding: 15px;
 }
 
@@ -38,26 +58,54 @@ h2 {
     background-color: #b0c4b1;
     color: #4a5759;
     margin: 0;
+    padding: 0;
+}
+
+#bio-paragraph {
+    text-align: center;
+    justify-content: space-around;
+    padding: 0 80px 15px 80px;
+    margin: 0
 }
 
 #resume-div {
     background-color: #dedbd2;
     color: #4a5759;
     margin: 0;
+    padding: 0;
+}
+
+#resume-paragraph {
+    padding: 0 80px 15px 80px;
+    margin: 0
 }
 
 #projects-div {
     background-color: #f7e1d7;
     color: #4a5759;
     margin: 0;
+    padding: 0;
+}
+
+#projects-divy {
+    padding: 0 80px 15px 80px;
+    margin: 0
 }
 
 footer {
     background-color: #edafb8;
     padding-top: 5px;
-    margin: 0;
+    /* position: fixed;
+    height: 10%;
+    width: 100%;
+    left: 0;
+    bottom: 0; */
     justify-content: center space-between;
     list-style: none;
+}
+
+a {
+    color: white;
 }
 
 #flexboxfooter {
@@ -67,3 +115,5 @@ footer {
     text-align: center;
     display: inline-block;
 }
+
+
