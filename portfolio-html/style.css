@@ -1,45 +1,69 @@
 body {
     text-align: center;
     padding: 10px;
-    background-color: whitesmoke;
     object-position: center;
-}
-
-button {
-    border-radius: 30%;
-    font-size: 20px;
-    background-color: rgb(216, 216, 8);
-    min-width: 20px;
-    display: inline-flex center;
-    justify-content: center;
+    margin: 0;
 }
 
 #about-div, #resume-div,#projects-div {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     float: center;
     max-width: 50% center;
+    padding: 10px;
 }
 
-header {
-    background: rgb(104,104,9);
-    width: 100%;
-    padding: 60px;
+div {
+    margin: 0;
 }
-
 
 h1 {
-    color: rgb(83, 96, 0);
+    background-color: #4a5759;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 50px;
+    color: whitesmoke;
+    margin: 0;
+    text-align: center;
+    padding: 15px;
+}
 
+h2 {
+    width: 100%;
+    margin: 0;
+    padding: 5px 0 5px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#about-div {
+    background-color: #b0c4b1;
+    color: #4a5759;
+    margin: 0;
+}
+
+#resume-div {
+    background-color: #dedbd2;
+    color: #4a5759;
+    margin: 0;
+}
+
+#projects-div {
+    background-color: #f7e1d7;
+    color: #4a5759;
+    margin: 0;
 }
 
 footer {
-    /* background-color: lightgoldenrodyellow;
-    max-width: 100%; */
-    padding: 50px;
-    margin: 50px;
-    /* display: flex; */
-    justify-content: center;
+    background-color: #edafb8;
+    padding-top: 5px;
+    margin: 0;
+    justify-content: center space-between;
+    list-style: none;
+}
 
+#flexboxfooter {
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
 }
