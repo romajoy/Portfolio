@@ -130,8 +130,9 @@ a {
     color: white;
 }
 a:hover {
-    font-weight: 900;
-    color: #f7e1d7;
+    font-weight: 700;
+    /* color: #f7e1d7; */
+    opacity: 60%;
 }
 
 #flexboxfooter {
