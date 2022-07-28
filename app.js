@@ -20,12 +20,15 @@ $eduDetails = $('#edu-details')
 
 
 // On Load, show/hide:
-$aboutMeDiv.hide(2000)
+$aboutMeDiv.show(2000)
 $resumeDiv.hide(1000)
 $projectsDiv.hide(1000)
-$resumeDeets.hide()
-$professionalDiv.hide()
+$resumeDeets.hide(2000)
 $skillsDeets.hide()
+$erapDeets.hide()
+$donorDeets.hide()
+$libDeets.hide()
+$mcanDeets.hide()
 
 
 
