@@ -20,7 +20,7 @@ $eduDetails = $('#edu-details')
 
 
 // On Load, show/hide:
-$aboutMeDiv.show(2000)
+$aboutMeDiv.show()
 $resumeDiv.hide(1000)
 $projectsDiv.hide(1000)
 $resumeDeets.hide(2000)
@@ -108,5 +108,6 @@ const toggleEdu = () => {
     $('#skillshead').on('click', toggleSkills)
     $('#volunteer-title').on('click', toggleVolExp)
     $('#edu-title').on('click', toggleEdu)
+    // $('a').hover()
 
 })

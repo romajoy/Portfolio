@@ -53,8 +53,18 @@ h2 {
 
 }
 
+h2:hover {
+    opacity: 70%;
+}
+h3:hover {
+    opacity: 70%;
+}
+h4:hover {
+    opacity: 70%;
+}
+
 h5 {
-    opacity: 50%;
+    opacity: 70%;
 }
 
 .job-details {
@@ -79,7 +89,7 @@ h5 {
     background-color: #dedbd2;
     color: #4a5759;
     margin: 0;
-    padding: 15px 60px 15px 60px;
+    padding: 15px 100px 15px 100px;
 }
 
 #resume-paragraph {
@@ -87,9 +97,9 @@ h5 {
     margin: 0
 }
 
-/* #edu-details, #volunteer-details, #mcan-details, #library-details, #donor-details, #erap-details {
+#edu-details, #volunteer-details{
     list-style: none;
-} */
+}
 
 #projects-div {
     background-color: #f7e1d7;
@@ -118,6 +128,10 @@ footer {
 
 a {
     color: white;
+}
+a:hover {
+    font-weight: 900;
+    color: #f7e1d7;
 }
 
 #flexboxfooter {
