@@ -43,7 +43,6 @@ div {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     float: center;
     max-width: 50% center;
-    padding: 15px;
 }
 
 h2 {
@@ -54,11 +53,19 @@ h2 {
 
 }
 
+h5 {
+    opacity: 50%;
+}
+
+.job-details {
+    text-align: left;
+}
+
 #about-div {
     background-color: #b0c4b1;
     color: #4a5759;
     margin: 0;
-    padding: 0;
+    padding: 15px;
 }
 
 #bio-paragraph {
@@ -72,7 +79,7 @@ h2 {
     background-color: #dedbd2;
     color: #4a5759;
     margin: 0;
-    padding: 0;
+    padding: 15px 60px 15px 60px;
 }
 
 #resume-paragraph {
@@ -80,11 +87,15 @@ h2 {
     margin: 0
 }
 
+/* #edu-details, #volunteer-details, #mcan-details, #library-details, #donor-details, #erap-details {
+    list-style: none;
+} */
+
 #projects-div {
     background-color: #f7e1d7;
     color: #4a5759;
     margin: 0;
-    padding: 0;
+    padding: 15px;
 }
 
 #projects-divy {
@@ -100,6 +111,7 @@ footer {
     width: 100%;
     left: 0;
     bottom: 0; */
+    text-align: center;
     justify-content: center space-between;
     list-style: none;
 }

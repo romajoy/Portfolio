@@ -2,19 +2,32 @@ $(() => {
 
 // Elements Created for JQuery
 
-$aboutMeDiv = $('#bio-paragraph')//.hide(5000)
-$resumeDiv = $('#resume-paragraph')//.hide(5000)
-$projectsDiv = $('#projects-divy')//.hide(5000)
-$projectParas = $('.project-description')
-$projectA = $('#project1')
-$projectB = $('#project2')
-$projectC = $('#project3')
-$projectHeads = $('.head')
+$aboutMeDiv = $('#bio-paragraph')
+$resumeDiv = $('#resume-paragraph')
+$projectsDiv = $('#projects-divy')
+$professionalDiv = $('.hide-jobs')
+$skillsDeets = $('#skills')
+$experience = $('#experiencehead')
+$resumeSections = $('.resumeheader')
+$resumeDeets = $('.resume-details')
+$jobDeets = $('.job-details')
+$erapDeets = $('#erap-details')
+$donorDeets = $('#donor-details')
+$libDeets = $('#library-details')
+$mcanDeets = $('#mcan-details')
+$volDetails = $('#volunteer-details')
+$eduDetails = $('#edu-details')
+
 
 // On Load, show/hide:
-$aboutMeDiv.show()
+$aboutMeDiv.hide(2000)
 $resumeDiv.hide(1000)
 $projectsDiv.hide(1000)
+$resumeDeets.hide()
+$professionalDiv.hide()
+$skillsDeets.hide()
+
+
 
 // Funtions for on-click:
 const toggleAboutMe = () => {
@@ -31,24 +44,52 @@ const toggleProjects = () => {
     $projectsDiv.toggle(2000)
     $aboutMeDiv.hide(2000)
     $resumeDiv.hide(2000)
-    $projectParas.hide(2000)
-    $projectHeads.show(2000)
 }
-const projectAx = () => {
-    $projectA.toggle(2000)
-    $projectB.hide(2000)
-    $projectC.hide(2000)
+const toggleJobs = () => {
+    $professionalDiv.toggle(2000)
 }
-const projectBx = () => {
-    $projectB.toggle(2000)
-    $projectA.hide(2000)
-    $proejctC.hide(2000)
+const toggleErap = () => {
+    $erapDeets.toggle(1500)
+    $donorDeets.hide(1500)
+    $libDeets.hide(1500)
+    $mcanDeets.hide(1500)
 }
-const projectCx = () => {
-    $projectC.toggle(2000)
-    $projectA.hide(2000)
-    $projectB.hide(2000)
-    
+const toggleDonor = () => {
+    $donorDeets.toggle(1500)
+    $erapDeets.hide(1500)
+    $libDeets.hide(1500)
+    $mcanDeets.hide(1500)
+}
+const toggleLibs = () => {
+    $libDeets.toggle(1500)
+    $erapDeets.hide(1500)
+    $donorDeets.hide(1500)
+    $mcanDeets.hide(1500)
+}
+const toggleMcan = () => {
+    $mcanDeets.toggle(1500)
+    $erapDeets.hide(1500)
+    $donorDeets.hide(1500)
+    $libDeets.hide(1500)
+}
+
+const toggleSkills = () => {
+    $skillsDeets.toggle(1500)
+    $jobDeets.hide(1500)
+    $volDetails.hide(1500)
+    $eduDetails.hide(1500)
+}
+const toggleVolExp = () => {
+    $volDetails.toggle(1500)
+    $jobDeets.hide(1500)
+    $skillsDeets.hide(1500)
+    $eduDetails.hide(1500)
+}
+const toggleEdu = () => {
+    $eduDetails.toggle(1500)
+    $jobDeets.hide(1500)
+    $skillsDeets.hide(1500)
+    $volDetails.hide(1500)
 }
 
 
@@ -56,13 +97,13 @@ const projectCx = () => {
     $('#about-header').on('click', toggleAboutMe)
     $('#resume-header').on('click', toggleResume)
     $('#projects-header').on('click', toggleProjects)
-    $('#p1-head').on('click', projectAx)
-    $('#p2-head').on('click', projectBx)
-    $('#p3-head').on('click', projectCx)
-
-
-// flexbox variable, possibly not needed
-// const $flexboxfooter = $('<footer>').attr('id','flexbox')
-// $('body').append($flexboxfooter)
+    $('#experiencehead').on('click', toggleJobs)
+    $('#erap-title').on('click', toggleErap)
+    $('#donor-title').on('click', toggleDonor)
+    $('#library-title').on('click', toggleLibs)
+    $('#mcan-title').on('click', toggleMcan)
+    $('#skillshead').on('click', toggleSkills)
+    $('#volunteer-title').on('click', toggleVolExp)
+    $('#edu-title').on('click', toggleEdu)
 
 })
