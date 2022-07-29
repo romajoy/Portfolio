@@ -69,13 +69,14 @@ h5 {
     padding: 0 80px 15px 80px;
     margin: 0
 }
+
 .job-details {
     text-align: left;
 }
 #resume-div {
     /* background-color: #f7e1d7; */
     background-color: #c8553d;
-    color: whitesmoke;
+    color: #ffd5c2;
     margin: 0;
     padding: 15px 100px 15px 100px;
 }

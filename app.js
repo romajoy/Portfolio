@@ -20,9 +20,9 @@ $eduDetails = $('#edu-details')
 
 
 // On Load, show/hide:
-$aboutMeDiv.show(1000)
-$projectsDiv.hide(1000)
-$resumeDiv.hide(1000)
+$aboutMeDiv.slideUp(2000)
+$projectsDiv.slideUp(2500)
+$resumeDiv.slideUp(2500)
 $jobDeets.hide()
 $skillsDeets.hide()
 $volDetails.hide()
@@ -36,65 +36,74 @@ $eduDetails.hide()
 
 // Funtions for on-click:
 const toggleAboutMe = () => {
-    $aboutMeDiv.toggle(2000)
-    $resumeDiv.hide(2000)
-    $projectsDiv.hide(2000)
+    $aboutMeDiv.slideToggle(2000)
+    $resumeDiv.slideUp(2000)
+    $projectsDiv.slideUp(2000)
 }
 const toggleProjects = () => {
-    $projectsDiv.toggle(2000)
-    $aboutMeDiv.hide(2000)
-    $resumeDiv.hide(2000)
+    $projectsDiv.slideToggle(2000)
+    $aboutMeDiv.slideUp(2000)
+    $resumeDiv.slideUp(2000)
 }
 const toggleResume = () => {
-    $resumeDiv.toggle(2000)
-    $aboutMeDiv.hide(2000)
-    $projectsDiv.hide(2000)
+    $resumeDiv.slideToggle(2000)
+    $aboutMeDiv.slideUp(2000)
+    $projectsDiv.slideUp(2000)
+    $eduDetails.slideUp(1500)
+    $volDetails.slideUp(1500)
+    $skillsDeets.slideUp(1500)
 }
 const toggleJobs = () => {
-    $professionalDiv.toggle(2000)
+    $professionalDiv.slideToggle(2000)
+    $skillsDeets.slideUp(1500)
+    $volDetails.slideUp(1500)
+    $eduDetails.slideUp(1500)
 }
 const toggleErap = () => {
-    $erapDeets.toggle(1500)
-    $donorDeets.hide(1500)
-    $libDeets.hide(1500)
-    $mcanDeets.hide(1500)
+    $erapDeets.slideToggle(1500)
+    $donorDeets.slideUp(1500)
+    $libDeets.slideUp(1500)
+    $mcanDeets.slideUp(1500)
 }
 const toggleDonor = () => {
-    $donorDeets.toggle(1500)
-    $erapDeets.hide(1500)
-    $libDeets.hide(1500)
-    $mcanDeets.hide(1500)
+    $donorDeets.slideToggle(1500)
+    $erapDeets.slideUp(1500)
+    $libDeets.slideUp(1500)
+    $mcanDeets.slideUp(1500)
 }
 const toggleLibs = () => {
-    $libDeets.toggle(1500)
-    $erapDeets.hide(1500)
-    $donorDeets.hide(1500)
-    $mcanDeets.hide(1500)
+    $libDeets.slideToggle(1500)
+    $erapDeets.slideUp(1500)
+    $donorDeets.slideUp(1500)
+    $mcanDeets.slideUp(1500)
 }
 const toggleMcan = () => {
-    $mcanDeets.toggle(1500)
-    $erapDeets.hide(1500)
-    $donorDeets.hide(1500)
-    $libDeets.hide(1500)
+    $mcanDeets.slideToggle(1500)
+    $erapDeets.slideUp(1500)
+    $donorDeets.slideUp(1500)
+    $libDeets.slideUp(1500)
 }
 
 const toggleSkills = () => {
-    $skillsDeets.toggle(1500)
-    $jobDeets.hide(1500)
-    $volDetails.hide(1500)
-    $eduDetails.hide(1500)
+    $skillsDeets.slideToggle(1500)
+    $jobDeets.slideUp(1500)
+    $volDetails.slideUp(1500)
+    $eduDetails.slideUp(1500)
+    $professionalDiv.slideUp(1500)
 }
 const toggleVolExp = () => {
-    $volDetails.toggle(1500)
-    $jobDeets.hide(1500)
-    $skillsDeets.hide(1500)
-    $eduDetails.hide(1500)
+    $volDetails.slideToggle(1500)
+    $jobDeets.slideUp(1500)
+    $skillsDeets.slideUp(1500)
+    $eduDetails.slideUp(1500)
+    $professionalDiv.slideUp(1500)
 }
 const toggleEdu = () => {
-    $eduDetails.toggle(1500)
-    $jobDeets.hide(1500)
-    $skillsDeets.hide(1500)
-    $volDetails.hide(1500)
+    $eduDetails.slideToggle(1500)
+    $jobDeets.slideUp(1500)
+    $skillsDeets.slideUp(1500)
+    $volDetails.slideUp(1500)
+    $professionalDiv.slideUp(1500)
 }
 
 
@@ -110,5 +119,16 @@ const toggleEdu = () => {
     $('#skillshead').on('click', toggleSkills)
     $('#volunteer-title').on('click', toggleVolExp)
     $('#edu-title').on('click', toggleEdu)
+
+
+// projects carousel
+
+
+
+
+
+
+
+
 
 })
