@@ -16,24 +16,11 @@ h1 {
     color: whitesmoke;
     margin: 0;
     text-align: center;
-    padding: 15px;
+    padding: 25px;
     
 }
 
-@media (max-width: 700px) {
-    #bio-paragraph {
-        padding: 5px;
-        margin: 0;
-    }
-    #resume-paragraph {
-        padding: 5px;
-        margin: 0;
-    }
-    #projects-divy {
-        padding: 5px;
-        margin: 0;
-    }
-}
+
 
 div {
     margin: 0;
@@ -143,4 +130,31 @@ a:hover {
     display: inline-block;
 }
 
+@media (max-width: 800px) {
+    #bio-paragraph {
+        padding: 2px;
+        margin: 0;
+    }
+    #resume-div{
+        padding: 2px;
+        margin: 0;
+    }
+    #professional-experience-div {
+        text-align: center;
+        padding: 1px;
+        margin: 0;
+        list-style: none;
+    }
+    h5, ul, li {
+        list-style: none;
+        padding: 0 2px 0 2px;
+        margin: 0;
+        text-align: center;
+        font-size: smaller;
+    }
+    #projects-divy {
+        padding: 2px;
+        margin: 0;
+    }
 
+}
