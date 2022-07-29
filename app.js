@@ -20,15 +20,17 @@ $eduDetails = $('#edu-details')
 
 
 // On Load, show/hide:
-$aboutMeDiv.show()
-$resumeDiv.hide(1000)
+$aboutMeDiv.show(1000)
 $projectsDiv.hide(1000)
-$resumeDeets.hide(2000)
+$resumeDiv.hide(1000)
+$jobDeets.hide()
 $skillsDeets.hide()
-$erapDeets.hide()
-$donorDeets.hide()
-$libDeets.hide()
-$mcanDeets.hide()
+$volDetails.hide()
+$eduDetails.hide()
+// $erapDeets.hide()
+// $donorDeets.hide()
+// $libDeets.hide()
+// $mcanDeets.hide()
 
 
 
@@ -38,15 +40,15 @@ const toggleAboutMe = () => {
     $resumeDiv.hide(2000)
     $projectsDiv.hide(2000)
 }
-const toggleResume = () => {
-    $resumeDiv.toggle(2000)
-    $aboutMeDiv.hide(2000)
-    $projectsDiv.hide(2000)
-}
 const toggleProjects = () => {
     $projectsDiv.toggle(2000)
     $aboutMeDiv.hide(2000)
     $resumeDiv.hide(2000)
+}
+const toggleResume = () => {
+    $resumeDiv.toggle(2000)
+    $aboutMeDiv.hide(2000)
+    $projectsDiv.hide(2000)
 }
 const toggleJobs = () => {
     $professionalDiv.toggle(2000)
@@ -98,8 +100,8 @@ const toggleEdu = () => {
 
 // OnClick Actions
     $('#about-header').on('click', toggleAboutMe)
-    $('#resume-header').on('click', toggleResume)
     $('#projects-header').on('click', toggleProjects)
+    $('#resume-header').on('click', toggleResume)
     $('#experiencehead').on('click', toggleJobs)
     $('#erap-title').on('click', toggleErap)
     $('#donor-title').on('click', toggleDonor)
@@ -108,6 +110,5 @@ const toggleEdu = () => {
     $('#skillshead').on('click', toggleSkills)
     $('#volunteer-title').on('click', toggleVolExp)
     $('#edu-title').on('click', toggleEdu)
-    // $('a').hover()
 
 })

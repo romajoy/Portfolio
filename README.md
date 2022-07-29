@@ -3,7 +3,8 @@ Portfolio Project Repo
 
 This is my Unit 1 Project: a Portfolio Website
 
-This website contains four sections: About Me, Resume, Portfolio & a Footer.
+This website contains four sections: About Me, Resume, Portfolio & a Footer.  I used HTML, CSS, Javascript and jQuery to create this website.
+You can find the website live here: https://joyful-paprenjak-540a3b.netlify.app/ 
 
 # About Me
 

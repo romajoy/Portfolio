@@ -5,41 +5,34 @@ body {
     padding: 0;
     object-position: center;
     margin: 0;
-    background-color: #edafb8;
+    /* background-color: #edafb8; */
+    background-color: #394a51;
     border: 0;
 }
-
 h1 {
-    background-color: #4a5759;
+    /* background-color: #4a5759; */
+    background-color: #394151;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 64px;
+    font-size: 58px;
     color: whitesmoke;
     margin: 0;
     text-align: center;
     padding: 25px;
-    
 }
-
-
-
 div {
     margin: 0;
 }
-
 #about-div, #resume-div,#projects-div {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     float: center;
     max-width: 50% center;
 }
-
 h2 {
     width: 100%;
     margin: 0;
     padding: 5px 0 5px 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
-
 h2:hover {
     opacity: 70%;
 }
@@ -49,70 +42,58 @@ h3:hover {
 h4:hover {
     opacity: 70%;
 }
-
 h5 {
     opacity: 70%;
 }
-
-.job-details {
-    text-align: left;
-}
-
-#about-div {
-    background-color: #b0c4b1;
-    color: #4a5759;
-    margin: 0;
-    padding: 15px;
-}
-
 #bio-paragraph {
     text-align: center;
     justify-content: space-around;
     padding: 0 80px 15px 80px;
     margin: 0
 }
-
-#resume-div {
-    background-color: #dedbd2;
-    color: #4a5759;
-    margin: 0;
-    padding: 15px 100px 15px 100px;
-}
-
-#resume-paragraph {
-    padding: 0 80px 15px 80px;
-    margin: 0
-}
-
-#edu-details, #volunteer-details{
-    list-style: none;
-}
-
-#projects-div {
-    background-color: #f7e1d7;
-    color: #4a5759;
+#about-div {
+    /* background-color: #b0c4b1; */
+    background-color: #7fa99b;
+    color: #394a51;
     margin: 0;
     padding: 15px;
 }
-
+#projects-div {
+    /* background-color:#dedbd2 ; */
+    background-color: #fdc57b;
+    color: #394a51;
+    margin: 0;
+    padding: 15px;
+}
 #projects-divy {
     padding: 0 80px 15px 80px;
     margin: 0
 }
-
+.job-details {
+    text-align: left;
+}
+#resume-div {
+    /* background-color: #f7e1d7; */
+    background-color: #fbf2d5;
+    color: #394a51;
+    margin: 0;
+    padding: 15px 100px 15px 100px;
+}
+#resume-paragraph {
+    padding: 0 80px 15px 80px;
+    margin: 0
+}
+#edu-details, #volunteer-details{
+    list-style: none;
+}
 footer {
-    background-color: #edafb8;
+    /* background-color: #edafb8; */
+    background-color: #394a51;
     padding-top: 5px;
-    /* position: fixed;
-    height: 10%;
-    width: 100%;
-    left: 0;
-    bottom: 0; */
     text-align: center;
     justify-content: center space-between;
     list-style: none;
 }
-
 a {
     color: white;
 }
@@ -121,15 +102,21 @@ a:hover {
     /* color: #f7e1d7; */
     opacity: 60%;
 }
-
+/* .project-links {
+    color: #4a5759;
+    font-weight: bold;
+} */
+#email:hover {
+    font-weight: 700;
+    opacity: 80%;
+}
 #flexboxfooter {
     padding: 10px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     display: inline-block;
 }
-
 @media (max-width: 800px) {
     #bio-paragraph {
         padding: 2px;
@@ -151,10 +138,10 @@ a:hover {
         margin: 0;
         text-align: center;
         font-size: smaller;
+        /* visibility: hidden; */
     }
     #projects-divy {
         padding: 2px;
         margin: 0;
     }
-
 }
