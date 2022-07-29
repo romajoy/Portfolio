@@ -6,6 +6,8 @@ This is my Unit 1 Project: a Portfolio Website
 This website contains four sections: About Me, Resume, Portfolio & a Footer.  I used HTML, CSS, Javascript and jQuery to create this website.
 You can find the website live here: https://joyful-paprenjak-540a3b.netlify.app/ 
 
+I approached building this website first by writing out a sketch of what I wanted each section to look like, listing the elements included and functions needed.  Then, I pseudo coded in my files a rough outline of what I would need and what order I wanted things to be in.  I then went through and built out all my HTML elements, and started adding some CSS to give it form.  Next, I went to my JS elements, and created all some functions I knew I'd be using with jquery.  After this, I started to go back and forth between CSS and jquery to get things to look and perform the way I desired.  Once I had a pretty established project, I started to fine-tune things like the color palette and show/hide speeds, and I then started to fill out the different sections with actual content (instead of place-holder lorem).  I plan to update the "project" section as we continue and add more projects to our portfolio, so there is placeholder text for now.
+
 # About Me
 
 The About Me section expands when you click into the "About Me" header.  This contains a small bio and has a link to my email address.
