@@ -20,9 +20,9 @@ $eduDetails = $('#edu-details')
 
 
 // On Load, show/hide:
-$aboutMeDiv.slideUp(2000)
-$projectsDiv.slideUp(2500)
-$resumeDiv.slideUp(2500)
+$aboutMeDiv.hide()
+$projectsDiv.hide()
+$resumeDiv.hide()
 $jobDeets.hide()
 $skillsDeets.hide()
 $volDetails.hide()
@@ -105,7 +105,6 @@ const toggleEdu = () => {
     $volDetails.slideUp(1500)
     $professionalDiv.slideUp(1500)
 }
-
 
 // OnClick Actions
     $('#about-header').on('click', toggleAboutMe)

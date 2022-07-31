@@ -19,6 +19,15 @@ h1 {
     text-align: center;
     padding: 25px;
 }
+img {
+    border-radius: 50%;
+}
+a:hover {
+    font-weight: 700;
+    /* color: #f7e1d7; */
+    opacity: 60%;
+    cursor: pointer;
+}
 div {
     margin: 0;
 }
@@ -35,12 +44,15 @@ h2 {
 }
 h2:hover {
     opacity: 70%;
+    cursor: pointer;
 }
 h3:hover {
     opacity: 70%;
+    cursor: pointer;
 }
 h4:hover {
     opacity: 70%;
+    cursor: pointer;
 }
 h5 {
     opacity: 70%;
@@ -106,6 +118,7 @@ a:hover {
     font-weight: 700;
     /* color: #f7e1d7; */
     opacity: 60%;
+    cursor: pointer;
 }
 .project-links {
     color: #588b8b;
