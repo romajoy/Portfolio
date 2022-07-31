@@ -30,7 +30,7 @@ div {
 h2 {
     width: 100%;
     margin: 0;
-    padding: 5px 0 5px 0;
+    padding: 10px 0 10px 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h2:hover {
@@ -48,7 +48,7 @@ h5 {
 #bio-paragraph {
     text-align: center;
     justify-content: space-around;
-    padding: 0 80px 15px 80px;
+    padding: 15px 80px 15px 80px;
     margin: 0
 }
 #about-div {
@@ -94,7 +94,6 @@ footer {
     text-align: center;
     justify-content: center space-between;
     list-style: none;
-
 }
 a {
     color: whitesmoke;
@@ -128,7 +127,7 @@ a:hover {
         padding: 2px;
         margin: 0;
     }
-    #resume-div{
+    #resume-paragraph{
         padding: 2px;
         margin: 0;
     }
@@ -143,11 +142,14 @@ a:hover {
         padding: 0 2px 0 2px;
         margin: 0;
         text-align: center;
-        font-size: smaller;
+        font-size: small;
         /* visibility: hidden; */
     }
     #projects-divy {
         padding: 2px;
         margin: 0;
+    }
+    #skills {
+        font-size: smaller;
     }
 }
