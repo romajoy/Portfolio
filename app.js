@@ -121,8 +121,28 @@ const toggleEdu = () => {
 
 
 // projects carousel
+let currentDivIndex = 0
+let numOfDivs = $('.carousel-divs').children().length-1
 
+$('.next').on('click', () => {
+    $('.carousel-divs').children().eq(currentDivIndex).css('display', 'none')
+    if (currentDivIndex < numOfDivs) {
+        currentDivIndex++
+    } else {
+        currentDivIndex = 0
+    }
+    $('.carousel-divs').children().eq(currentDivIndex).css('display', 'block')
+})
 
+$('.previous').on('click', () => {
+    $('.carousel-divs').children().eq(currentDivIndex).css('display','none')
+    if (currentDivIndex > 0) {
+        currentDivIndex--
+    } else {
+        currentDivIndex = numOfDivs
+    }
+    $('.carousel-divs').children().eq(currentDivIndex).css('display', 'block')
+})
 
 
 
